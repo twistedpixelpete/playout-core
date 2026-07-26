@@ -1,4 +1,11 @@
-
-# Ignore media files
+# Video/media files
 touch/media/*
 !touch/media/.gitkeep
+
+# Generated and temporary files
+.codex-review/
+touch/Backup/
+**/__pycache__/
+*.pyc
+
+touch/playoutcore.*.toe

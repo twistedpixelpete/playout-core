@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "gameId": "generic",
+  "allowedPhases": [
+    "IDLE",
+    "READY",
+    "RUNNING",
+    "PAUSED",
+    "COMPLETE",
+    "ERROR"
+  ],
+  "initialState": {
+    "phase": "IDLE",
+    "round": 0,
+    "questionIndex": -1,
+    "score": 0,
+    "locked": false
+  }
+}

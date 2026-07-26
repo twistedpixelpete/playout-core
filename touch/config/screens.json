@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "screens": [
+    {
+      "id": "main",
+      "label": "Main Screen",
+      "width": 1920,
+      "height": 1080,
+      "background": [0.0, 0.0, 0.0, 1.0],
+      "masterFade": 1.0
+    },
+    {
+      "id": "stage_left",
+      "label": "Stage Left",
+      "width": 1920,
+      "height": 1080,
+      "background": [0.0, 0.0, 0.0, 1.0],
+      "masterFade": 1.0
+    }
+  ]
+}

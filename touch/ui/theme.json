@@ -1,0 +1,41 @@
+{
+  "name": "pixel.formation playbackCore",
+  "mode": "dark",
+  "brand": {
+    "product": "playbackCore",
+    "company": "pixel.formation",
+    "logoDarkUi": "assets/pixel-formation-white.png",
+    "logoLightUi": "assets/pixel-formation-black.png"
+  },
+  "colors": {
+    "canvas": "#101820",
+    "surface": "#182532",
+    "surfaceRaised": "#223342",
+    "border": "#35495A",
+    "textPrimary": "#F4F7F9",
+    "textSecondary": "#9DAAB4",
+    "accent": "#18BFD0",
+    "accentBlue": "#168DCC",
+    "accentGreen": "#38CA91",
+    "accentLime": "#8BD45A",
+    "accentYellow": "#F8D927",
+    "success": "#38CA91",
+    "warning": "#F8D927",
+    "error": "#F05B67",
+    "disabled": "#536370"
+  },
+  "usage": {
+    "primaryAction": "accent",
+    "onAir": "accentGreen",
+    "cued": "accentBlue",
+    "loading": "accentYellow",
+    "selection": "accent",
+    "destructive": "error"
+  },
+  "shape": {
+    "cornerRadius": 6,
+    "controlHeight": 34,
+    "panelPadding": 16,
+    "spacing": 8
+  }
+}

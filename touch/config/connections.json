@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "connections": [
+    {
+      "id": "contestantSnapshots",
+      "label": "Contestant Snapshot Input",
+      "direction": "receive",
+      "protocol": "udp",
+      "enabled": false,
+      "localAddress": "",
+      "port": 7000,
+      "purpose": "contestantSnapshot"
+    },
+    {
+      "id": "executorTriggers",
+      "label": "Remote Executor Input",
+      "direction": "receive",
+      "protocol": "udp",
+      "enabled": false,
+      "localAddress": "",
+      "port": 7002,
+      "purpose": "executorTrigger"
+    },
+    {
+      "id": "logicStateOutput",
+      "label": "Logic State Output",
+      "direction": "send",
+      "protocol": "udp",
+      "enabled": false,
+      "address": "127.0.0.1",
+      "port": 7001,
+      "purpose": "logicState"
+    }
+  ]
+}

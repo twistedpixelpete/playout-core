@@ -1,0 +1,224 @@
+{
+  "version": 1,
+  "buttons": [
+    {
+      "id": "001",
+      "label": "START SHOW",
+      "color": "green",
+      "actions": [
+        {
+          "type": "logic.resetEpisode"
+        },
+        {
+          "type": "playback.take",
+          "clipId": "1000000000000001"
+        }
+      ]
+    },
+    {
+      "id": "002",
+      "label": "GAMEPLAY",
+      "color": "cyan",
+      "actions": [
+        {
+          "type": "playback.take",
+          "clipId": "1000000000000002"
+        }
+      ]
+    },
+    {
+      "id": "003",
+      "label": "WIN",
+      "color": "blue",
+      "actions": [
+        {
+          "type": "playback.take",
+          "clipId": "3000000000000001"
+        }
+      ]
+    },
+    {
+      "id": "004",
+      "label": "LOSE",
+      "color": "red",
+      "actions": [
+        {
+          "type": "playback.take",
+          "clipId": "1000000000000003"
+        }
+      ]
+    },
+    {
+      "id": "005",
+      "label": "Generic",
+      "color": "green",
+      "actions": [
+        {
+          "type": "playback.take",
+          "clipId": "1000000000000001"
+        }
+      ]
+    },
+    {
+      "id": "006",
+      "label": "CUE GAMEPLAY",
+      "color": "blue",
+      "actions": [
+        {
+          "type": "playback.cue",
+          "clipId": "1000000000000002"
+        }
+      ]
+    },
+    {
+      "id": "007",
+      "label": "GENERIC + GAMEPLAY",
+      "color": "blue",
+      "actions": [
+        {
+          "type": "playback.take",
+          "clipId": "1000000000000001"
+        },
+        {
+          "type": "wait",
+          "durationMs": 1000
+        },
+        {
+          "type": "playback.take",
+          "clipId": "1000000000000002"
+        }
+      ]
+    },
+    {
+      "id": "008",
+      "label": "UNASSIGNED 08",
+      "color": "raised",
+      "actions": [
+        {
+          "type": "logic.emitEvent",
+          "eventType": "EXECUTOR_UNASSIGNED",
+          "payload": {
+            "slot": "008"
+          }
+        }
+      ]
+    },
+    {
+      "id": "009",
+      "label": "UNASSIGNED 09",
+      "color": "raised",
+      "actions": [
+        {
+          "type": "logic.emitEvent",
+          "eventType": "EXECUTOR_UNASSIGNED",
+          "payload": {
+            "slot": "009"
+          }
+        }
+      ]
+    },
+    {
+      "id": "010",
+      "label": "UNASSIGNED 10",
+      "color": "raised",
+      "actions": [
+        {
+          "type": "logic.emitEvent",
+          "eventType": "EXECUTOR_UNASSIGNED",
+          "payload": {
+            "slot": "010"
+          }
+        }
+      ]
+    },
+    {
+      "id": "011",
+      "label": "UNASSIGNED 11",
+      "color": "raised",
+      "actions": [
+        {
+          "type": "logic.emitEvent",
+          "eventType": "EXECUTOR_UNASSIGNED",
+          "payload": {
+            "slot": "011"
+          }
+        }
+      ]
+    },
+    {
+      "id": "012",
+      "label": "UNASSIGNED 12",
+      "color": "raised",
+      "actions": [
+        {
+          "type": "logic.emitEvent",
+          "eventType": "EXECUTOR_UNASSIGNED",
+          "payload": {
+            "slot": "012"
+          }
+        }
+      ]
+    },
+    {
+      "id": "013",
+      "label": "UNASSIGNED 13",
+      "color": "raised",
+      "actions": [
+        {
+          "type": "logic.emitEvent",
+          "eventType": "EXECUTOR_UNASSIGNED",
+          "payload": {
+            "slot": "013"
+          }
+        }
+      ]
+    },
+    {
+      "id": "014",
+      "label": "UNASSIGNED 14",
+      "color": "raised",
+      "actions": [
+        {
+          "type": "logic.emitEvent",
+          "eventType": "EXECUTOR_UNASSIGNED",
+          "payload": {
+            "slot": "014"
+          }
+        }
+      ]
+    },
+    {
+      "id": "015",
+      "label": "test",
+      "color": "blue",
+      "actions": [
+        {
+          "type": "playback.take",
+          "clipId": "3000000000000001"
+        },
+        {
+          "type": "wait",
+          "durationMs": 2000
+        },
+        {
+          "type": "playback.take",
+          "clipId": "1000000000000003"
+        }
+      ]
+    },
+    {
+      "id": "016",
+      "label": "UNASSIGNED 16",
+      "color": "raised",
+      "actions": [
+        {
+          "type": "logic.emitEvent",
+          "eventType": "EXECUTOR_UNASSIGNED",
+          "payload": {
+            "slot": "016"
+          }
+        }
+      ]
+    }
+  ]
+}

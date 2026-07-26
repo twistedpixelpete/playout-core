@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "presets": {
+    "contestantEliminationGrid": {
+      "inspiredBy": ["Mass elimination and survival quiz formats"],
+      "modules": [
+        "contestantRoster",
+        "snapshotValidation",
+        "questionStages",
+        "freePass",
+        "buyout",
+        "sharedPrizePool",
+        "operatorCorrection"
+      ]
+    },
+    "massEliminationLadder": {
+      "inspiredBy": ["The 1% Club"],
+      "modules": [
+        "contestantRoster",
+        "questionLadder",
+        "passes",
+        "sharedPrizePool"
+      ]
+    },
+    "counterDropElimination": {
+      "inspiredBy": ["Tipping Point"],
+      "modules": [
+        "contestantRoster",
+        "scoreLedger",
+        "counterEconomy",
+        "roundElimination",
+        "jackpotObjective"
+      ]
+    },
+    "teamPursuitQuiz": {
+      "inspiredBy": ["The Chase"],
+      "modules": [
+        "contestantRoster",
+        "scoreLedger",
+        "cashBuilder",
+        "pursuitTrack",
+        "teamFinal"
+      ]
+    },
+    "hiddenValueOffer": {
+      "inspiredBy": ["Deal or No Deal"],
+      "modules": [
+        "hiddenValueBoard",
+        "offerDecision",
+        "stagedReveals"
+      ]
+    },
+    "territoryTimedDuel": {
+      "inspiredBy": ["The Floor"],
+      "modules": [
+        "contestantRoster",
+        "territoryBoard",
+        "timedDuel",
+        "categoryOwnership"
+      ]
+    },
+    "specialistRoundElimination": {
+      "inspiredBy": ["Hard Quiz"],
+      "modules": [
+        "contestantRoster",
+        "scoreLedger",
+        "specialistCategories",
+        "roundElimination",
+        "headToHeadFinal"
+      ]
+    },
+    "wagerableClueBoard": {
+      "inspiredBy": ["Jeopardy!"],
+      "modules": [
+        "contestantRoster",
+        "scoreLedger",
+        "categoryBoard",
+        "buzzerLockout",
+        "hiddenWagers",
+        "finalWager"
+      ]
+    }
+  }
+}
