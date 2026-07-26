@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "mediaRoot": "../media",
+  "clips": [
+    {
+      "id": "example",
+      "label": "Example Clip",
+      "file": "example.mp4",
+      "enabled": true,
+      "loop": false,
+      "speed": 1.0,
+      "inSeconds": 0.0,
+      "outSeconds": null,
+      "volume": 1.0,
+      "audioEnabled": true,
+      "transitionSeconds": 0.5,
+      "transitionType": "crossfade",
+      "preReadFrames": 12,
+      "hardwareDecode": true,
+      "category": "general"
+    }
+  ]
+}
