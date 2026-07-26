@@ -1,11 +1,22 @@
 {
   "version": 1,
-  "mediaRoot": "../media",
+  "mediaRoots": {
+    "video": "../media/video",
+    "audio": "../media/audio"
+  },
+  "audioBuses": [
+    "program",
+    "effects",
+    "aux1",
+    "aux2"
+  ],
   "clips": [
     {
-      "id": "example",
-      "label": "Example Clip",
-      "file": "example.mp4",
+      "id": "1000000000000001",
+      "label": "Generic",
+      "videoFile": "001_One_Percent_Club_GENERIC_Main_Screen_v2.mp4",
+      "audioFile": null,
+      "audioBus": "program",
       "enabled": true,
       "loop": false,
       "speed": 1.0,
@@ -18,6 +29,50 @@
       "preReadFrames": 12,
       "hardwareDecode": true,
       "category": "general"
+    },
+    {
+      "id": "1000000000000002",
+      "label": "Gameplay",
+      "videoFile": "001_One_Percent_Club_GAMEPLAY_Main_Screen_v2.mp4",
+      "audioFile": null,
+      "audioBus": "program",
+      "enabled": true,
+      "loop": true,
+      "speed": 1.0,
+      "inSeconds": 0.0,
+      "outSeconds": null,
+      "volume": 1.0,
+      "audioEnabled": true,
+      "transitionSeconds": 0.5,
+      "transitionType": "crossfade",
+      "preReadFrames": 12,
+      "hardwareDecode": true,
+      "category": "gameplay"
+    },
+    {
+      "id": "1000000000000003",
+      "label": "Lose",
+      "videoFile": "001_One_Percent_Club_LOSE_Main_Screen_v2.mp4",
+      "audioFile": null,
+      "audioBus": "program",
+      "enabled": true,
+      "loop": false,
+      "speed": 1.0,
+      "inSeconds": 0.0,
+      "outSeconds": null,
+      "volume": 1.0,
+      "audioEnabled": true,
+      "transitionSeconds": 0.5,
+      "transitionType": "crossfade",
+      "preReadFrames": 12,
+      "hardwareDecode": true,
+      "category": "result"
+    },
+    {
+      "id": "3000000000000001",
+      "label": "Winner",
+      "videoFile": "001_One_Percent_Club_WIN_Main_Screen_v3.mp4",
+      "audioFile": null
     }
   ]
 }
