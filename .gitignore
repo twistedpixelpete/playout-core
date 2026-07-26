@@ -1,0 +1,4 @@
+
+# Ignore media files
+touch/media/*
+!touch/media/.gitkeep
